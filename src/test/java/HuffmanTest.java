@@ -12,7 +12,6 @@ public class HuffmanTest {
     @Test
     public void testHuffmanDeComp()
     {
-        System.out.println("git");
         Huffman huf = new Huffman();
         assertTrue(huf.huffman("compressed", false)>0);
     }
