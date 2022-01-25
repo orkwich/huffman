@@ -38,7 +38,6 @@ public class Huffman {
             catch(IOException e){System.out.println("cant read compressed file");e.printStackTrace();}
             try{l=readCountFromStr(readData(path+"/count.txt"));}
             catch(IOException e){System.out.println("cant read count file");e.printStackTrace();}
-            System.out.println("git");
             if(b!=null && l!=null)
             {
                 String tmp=decompress(b,l);
